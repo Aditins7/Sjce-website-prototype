@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sri Jayachamarajendra College of Engineering</title>
+	<link rel = "icon" href = "https://sjce.ac.in/wp-content/uploads/2015/08/SJCE_Final-e1440437978629.png" type = "image/x-icon">
+	<link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link rel="stylesheet" href="sjce.css">
+	<script>
+		function startTime() {
+		  const today = new Date();
+		  let h = today.getHours();
+		  let m = today.getMinutes();
+		  let s = today.getSeconds();
+		  m = checkTime(m);  
+		  s = checkTime(s);
+		  document.getElementById('clock').innerHTML =  h + ":" + m + ":" + s;
+		  setTimeout(startTime, 1000);
+		}
+		
+		function checkTime(i) {
+		  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+		  return i;
+		}
+		</script>
+		
+</head>
+<body onload="startTime()">
+	<div id="header">
+	<div id="logo">
+		<img src="https://sjce.ac.in/wp-content/uploads/2015/08/SJCE_Final-e1440437978629.png">
+	</div>
+	<p id="clg_name">JSS Mahavidyapeetha</p>
+	<p id="clg_full">SRI JAYACHAMARAJENDRA COLLEGE OF ENGINEERING</p>
+	<p id="slogan">A Commitment to Technical Education</p>
+	<hr>
+	</div>
+	<div id="category" style="z-index: -1;">
+		<ul id="drop-1">
+			<li class="dropdown-1">
+			  <a href="https://sjce.ac.in/" class="dropbtn-1">Home</a>
+			</li>
+			<li class="dropdown-2">
+			  <a href="#abt" class="dropbtn-2">About</a>
+			  <div class="dropdown-content-2">
+				<a href="https://sjce.ac.in/institute/about-01/"style="color: #480813;">History</a>
+				<a href="https://sjce.ac.in/institute/about-02/"style="color: #480813;">Vision and Mission</a>
+				<a href="https://sjce.ac.in/institute/about-05/"style="color: #480813;">Governing Body</a>
+				<a href="https://sjce.ac.in/institute/message-from-principal/"style="color: #480813;">Words of Wisdom</a>
+				<a href="https://sjce.ac.in/institute/about-06/"style="color: #480813;">Mandatory disclosure</a>
+				<a href="https://jssonline.org/"style="color: #480813;">About JSS</a>
+				<a href="https://sjce.ac.in/contact-us/"style="color: #480813;">Contact US</a>
+			  </div>
+			</li>
+			<li class="dropdown-3">
+			  <a href="#academics" class="dropbtn-3">Academics</a>
+			  <div class="dropdown-content-3">
+				<a href="https://sjce.ac.in/academics/under-graduate-programme-b-e/"style="color: #480813;">UG</a>
+				<a href="https://sjce.ac.in/academics/post-graduate-courses-research-programme/"style="color: #480813;">PG</a>
+				<a href="https://sjce.ac.in/dept/"style="color: #480813;">Departments</a>
+				<a href="https://sjce.ac.in/academics/calendar-of-events/"style="color: #480813;">Calender of Events</a>
+				<a href="https://sjce.ac.in/academics/library-and-information-centre/"style="color: #480813;">Library and Information Center</a>
+				<a href="https://sjce.ac.in/academics/academic-regulations/"style="color: #480813;">Academic Regulations</a>
+			  </div>
+			</li>
+			<li class="dropdown-4">
+			  <a href="#campus" class="dropbtn-4">Campus Life</a>
+			  <div class="dropdown-content-4">
+				<a href="https://sjce.ac.in/campus-life/the-campus/"style="color: #480813;">The Campus</a>
+				<a href="https://sjce.ac.in/campus-life/essential-services/"style="color: #480813;">Essential Services</a>
+				<a href="https://sjce.ac.in/campus-life/student-clubs/"style="color: #480813;">Student Clubs</a>
+				<a href="https://sjce.ac.in/campus-life/sports/"style="color: #480813;">Sports</a>
+				<a href="https://sjce.ac.in/campus-life/jayciana/"style="color: #480813;">Fests</a>
+				<a href="https://sjce.ac.in/student-welfare/"style="color: #480813;">Student Welfare</a>
+				<a href="https://sjce.ac.in/campus-life/hostels/"style="color: #480813;">Hostels</a>
+			  </div>
+			</li>
+			<li class="dropdown-5">
+			  <a href="#research" class="dropbtn-5">Research</a>
+			  <div class="dropdown-content-5">
+				<a href="https://sjce.ac.in/research/research-02/"style="color: #480813;">Partnership Cell</a>
+				<a href="https://sjce.ac.in/research/research-03/"style="color: #480813;">Projects and Grants</a>
+				<a href="https://sjce.ac.in/research/research-06/"style="color: #480813;">University Relations</a>
+			  </div>
+			</li>
+			<li class="dropdown-6">
+				<a href="#training" class="dropbtn-6">Training&Placements</a>
+				<div class="dropdown-content-6">
+				  <a href="https://sjce.ac.in/placements/our-recruiters/"style="color: #480813;">Our Recruiters</a>
+				  <a href="https://sjce.ac.in/placements/placement-achievements/"style="color: #480813;">Placement Achievements</a>
+				  <a href="https://sjce.ac.in/placements/research-04/"style="color: #480813;">SJCE-STEP</a>
+				  <a href="https://sjce.ac.in/placements/contact-details/"style="color: #480813;">Contact details</a>
+				</div>
+			</li>
+			<li class="dropdown-7">
+				<a href="https://sjce.ac.in/teqip/" class="dropbtn-7">Teqip</a>
+			</li>
+			<li class="dropdown-8">
+				<a href="https://sjce.ac.in/nirf-2018-19/" class="dropbtn-8">Nirf</a>
+			</li>
+			<li class="dropdown-9">
+				<a href="https://sjce.ac.in/accreditation/" class="dropbtn-9">Accreditation Status</a>
+			</li>
+			<li class="dropdown-10">
+				<a href="https://sjce.ac.in/institution-budget/" class="dropbtn-10">Institution Budget</a>
+			</li>
+			<li class="dropdown-11">
+				<a href="https://sjce.ac.in/admission-open-for-the-ug-and-pg-program-for-the-year-2021/" class="dropbtn-11">Ug and pg programs offered</a>
+			</li>
+			<li class="dropdown-12">
+				<a href="https://sjce.ac.in/aicte-feedback/" class="dropbtn-12">AICTE Feedback</a>
+			</li>
+			<li class="dropdown-13">
+				<a href="https://docs.google.com/forms/d/18CyYObfIQGJpRC8KqFPi8eASdyAC6k9bzi9NG7HQhlE/viewform?edit_requested=true" class="dropbtn-13">Grievance Redressal</a>
+			</li>
+		  </ul>
+	</div>
+	<div id="mid1">
+		<div id="mid2">
+			<p id="vis1">VISION AND MISSION</p>
+			<p id="vis2">VISION</p>
+		</div>
+			<p id="vis3">“Be an international leader in engineering education, research and application of knowledge to benefit society globally”.</p>
+	   <div id="mid3">
+			<p id="vis4">MISSION</p>
+		</div>
+			<p id="vis5">• “To synergistically develop high-quality manpower and continue to stay competitive in tomorrow’s world”.
+	
+				<br> • “To foster and maintain mutually beneficial partnerships with our alumni, industry, state and central governments through public services assistance and collaborative research”.
+				
+				<br> • “To create empowered individuals with sense of identity”.</p>
+				<hr>
+	   </div>
+	<div class="property" id="highlight">
+      <section class="slideshow" style="height: 420px;">
+         <span id="target-1"></span>
+         <span id="target-2"></span>
+         <span id="target-3"></span>
+         <span id="target-4"></span>
+         <a href="#" class="play">play</a>
+         <div class="slideshow-item item-1">
+            <div class="progress">1 of 4</div>
+            <a href="#pic_1"><img src="https://th-i.thgim.com/public/migration_catalog/article14371759.ece/alternates/LANDSCAPE_1200/24MYRKK_SJCE-Un%2B25BG_MYS_SJCE.jpg.jpg" style="height: 470px;" alt="" /></a>
+            <a href="#target-4" class="arrow arrow-prev"></a>
+            <a href="#target-2" class="arrow arrow-next"></a>
+			<div id="sub">Welcome to Sri Jayachamarajendra College of Engineering</div>
+         </div>
+         <div class="slideshow-item item-2">
+            <div class="progress">2 of 4</div>
+            <a href="#pic_2"><img src="https://sjce.ac.in/wp-content/uploads/2017/12/bk3-1024x491-630x330.jpg" alt="" /></a>
+            <a href="#target-1" class="arrow arrow-prev"></a>
+            <a href="#target-3" class="arrow arrow-next"></a>
+			<div id="sub">Students take pledge on Swactha Abhiyan</div>
+         </div>
+         <div class="slideshow-item item-3">
+            <div class="progress">3 of 4</div>
+            <a href="#pic_3"><img src="https://sjce.ac.in/wp-content/uploads/2015/08/jayciana1-630x330-1-630x330.jpg"></a>
+            <a href="#target-2" class="arrow arrow-prev"></a>
+            <a href="#target-4" class="arrow arrow-next"></a>
+			<div id="sub" style="font-size: 20px;">Jayciana – The annual cultural festival of the college is one of the biggest college fests of the state</div>
+         </div>
+         <div class="slideshow-item item-4">
+            <div class="progress">4 of 4</div>
+            <a href="#pic_4"><img src="https://sjce.ac.in/wp-content/uploads/2016/02/HS1-630x330.jpg"></a>
+            <a href="#target-3" class="arrow arrow-prev"></a>
+            <a href="#target-1" class="arrow arrow-next"></a>
+			<div id="sub" style="font-size: 20px;">Leaders keep on coming and going. Every once in awhile, we come across someone as pre-eminent as Kalam.</div>
+         </div>
+      </section>
+   </div>
+   <br><br><br><br>
+   <div id="bulletin">
+		<div id="head_b">
+		<p>Campus Bulletin</p>
+		</div>
+		<marquee direction="up" style="text-align:center;">
+		<a href=""><p>Schedule for the distribution of Grade Cards</p></a>
+		<a href=""><p>Test Time Table - 2nd test B.E 2nd semester</p></a>
+		<a href=""><p>Revised Calender of Events</p></a>
+		<a href=""><p>Commencement of Classes - Even Semester</p></a>
+		<a href=""><p>Fresher's Day and Commencement of classes for 1st year B.E</p></a>
+		<a href=""><p>AICTE INIATIVES AND ACTIVITIES</p></a>
+		</marquee>
+   </div>
+   <br>
+   <div id="clock"></div>
+   <div id="quick_links">
+	<div id="link">
+		<p id="link_p">Quick Links</p>
+	</div>
+	<a href="https://sjce.ac.in/placements/"><p>Placements</p></a>
+	<a href="https://sjce.ac.in/campus-life/scholarships/"><p>Scholarship</p></a>
+	<a href="https://sjce.ac.in/academics/pace/"><p>PACE</p></a>
+	<a href="https://www.ieeesjce.com/"><p>IEEE-SJCE</p></a>
+	<a href="https://sjce.ac.in/placements/research-04/"><p>SJCE - STEP</p></a>
+	<a href="https://www.sjcealumni.org/"><p>SJCE Alumni</p></a>
+	<a href="https://sjce.ac.in/teqip/"><p>TEQIP</p></a>
+	<a href="http://jcedboard.org/"><p>The SJCE Editorial Board</p></a>
+	<a href="https://mail.google.com/"><p>Faculty Login</p></a>
+	<a href="https://sjce.ac.in/uncategorized/e-yantra/"><p>e-Yantra</p></a>	
+   </div>
+   <hr style="background-color: #8E0E00;height: 5px;">
+   <div id="footer">
+		<p id="clg_l">Sri Jayachamarajendra College of Engineering</p>
+		<p id="add_l">Sri Jayachamarajendra College of Engineering, JSS TI Campus, Manasagangothri, Mysuru 570006</p>
+		<p id="contact_l">0821- 2548285, 2548286, 2548287</p>
+		<p id="mail_l">principal@sjce.ac.in</p><hr>
+   </div>
+   <div id="end">
+		<a href="https://github.com/Aditins7/Sjce-website-prototype"></a><p>Prototype by <span style="color: white;">Aditins7❤️</span></p>
+   </div>
+</body>
+</html>
